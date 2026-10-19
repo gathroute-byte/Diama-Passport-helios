@@ -1,0 +1,17 @@
+{
+  "lambda_values": [0.0, 0.2, 0.4, 0.6, 0.8],
+  "tcrit_values": [31.0, 32.0, 33.0, 34.0],
+  "vpd_low_values": [0.8, 0.9, 1.0, 1.1],
+  "scale_q_low": 0.05,
+  "scale_q_high": 0.95,
+  "min_inner_years": 3,
+  "min_heldout_years": 4,
+  "min_test_rows": 3,
+  "bootstrap_reps": 2000,
+  "seed": 20261019,
+  "min_mean_rho_lift": 0.03,
+  "min_positive_year_fraction": 0.70,
+  "min_ci_lower": 0.0,
+  "min_sensitivity_fraction_positive": 0.60,
+  "directions": {"land": "higher", "crop": "higher", "climate": "lower", "moisture": "higher"}
+}

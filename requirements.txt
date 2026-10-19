@@ -1,0 +1,7 @@
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+fastapi==0.128.2
+uvicorn==0.48.0
+python-multipart==0.0.29

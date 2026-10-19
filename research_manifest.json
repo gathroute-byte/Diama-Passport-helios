@@ -1,0 +1,14 @@
+{
+  "_note": "Desk-research record only. No files were downloaded; no SHA-256 exists for any source file.",
+  "retrieved_utc_date": "2026-10-19",
+  "method": "web search; page text read via search snippets",
+  "sources": [
+    {"id": "nisr_sas_2025_A", "publisher": "NISR", "url": "https://www.statistics.gov.rw/data-sources/surveys/Seasonal-Agricultural-Survey/Seasonal-Agricultural-Survey/seasonal-agricultural-survey-season-2025", "lists": ["SAS 2025A_Final report.pdf", "Tables_2025 Season A.xlsx"], "district_yield_table": "Table 12: Average yield by crop type and district (Kg/Ha)", "downloaded": false, "sha256": null, "licence_checked": false},
+    {"id": "nisr_sas_2025_B", "publisher": "NISR", "url": "https://www.statistics.gov.rw/data-sources/surveys/Seasonal-Agricultural-Survey/Seasonal-Agricultural-Survey/seasonal-agricultural-survey-season-b-2025", "lists": ["SAS_2025B_Report.pdf", "INCAMAKE_SAS 2025_B.pdf"], "downloaded": false, "sha256": null, "licence_checked": false},
+    {"id": "nisr_sas_2023_annual", "publisher": "NISR", "url": "https://statistics.gov.rw/sites/default/files/documents/2024-10/Final_SAS%202023_Annual%20Report%20(1).pdf", "district_yield_table": "Table 16: Season A 2023 average yield by crop type per district (Kg/Ha)", "downloaded": false, "sha256": null, "licence_checked": false},
+    {"id": "nisr_sas_2024_annual", "publisher": "NISR", "url": "http://www.statistics.gov.rw/sites/default/files/documents/2025-02/SAS%202024%20Annual.pdf", "downloaded": false, "sha256": null, "licence_checked": false},
+    {"id": "nasa_power_daily", "publisher": "NASA Langley Research Center POWER Project", "url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/", "parameters_seen": ["T2M_MAX", "T2M_MIN", "RH2M"], "note": "data not static; acknowledgement requested; coarse native resolution", "downloaded": false, "sha256": null, "licence_checked": false},
+    {"id": "render_free_tier", "publisher": "Render", "url": "https://render.com/docs/free", "facts": ["Free web service 512 MB", "spins down after 15 min idle", "750 free instance hours per workspace per month"]},
+    {"id": "pins", "uvicorn_0_48_0_released": "2026-05-24", "python_multipart_0_0_29_released": "2026-05-17"}
+  ]
+}

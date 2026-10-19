@@ -1,0 +1,40 @@
+{
+  "_note": "TEMPLATE ONLY. Every value below is a placeholder to be replaced with real, verified lineage before a run. Nothing here is evidence.",
+  "manifest_version": 1,
+  "prepared_by": "<name>",
+  "prepared_utc": "<ISO-8601 timestamp>",
+  "pre_registration": {
+    "phase_windows_fixed_before_outcomes_viewed": "<true|false and how this is evidenced>",
+    "yield_anomaly_baseline": "<documented non-forward-looking baseline, e.g. trailing mean of prior years only>"
+  },
+  "sources": [
+    {
+      "id": "yield_outcomes",
+      "name": "<official dataset name>",
+      "publisher": "<e.g. NISR>",
+      "url": "<landing page URL>",
+      "download_url": "<direct file URL>",
+      "retrieved_utc": "<ISO-8601 timestamp>",
+      "licence_or_terms": "<licence name/URL and any redistribution limits>",
+      "file_sha256": "<sha256 of the immutable raw file>",
+      "units": "<e.g. kg/ha>",
+      "spatial_coverage": "<districts covered>",
+      "time_coverage": "<seasons/years covered>",
+      "transform": "<script/commit that produced the derived table>"
+    },
+    {
+      "id": "daily_climate",
+      "name": "<e.g. NASA POWER daily>",
+      "publisher": "<publisher>",
+      "url": "<API/docs URL>",
+      "request_parameters": "<exact parameters, point/region, community, date range>",
+      "retrieved_utc": "<ISO-8601 timestamp>",
+      "licence_or_terms": "<terms>",
+      "file_sha256": "<sha256>",
+      "units": "<per variable>",
+      "district_aggregation": "<area weighting / masks, or 'district centroid' if that is what was used>",
+      "column_mapping": {"land_raw": "<source>", "crop_raw": "<source>", "climate_raw": "<source>", "moisture_raw": "<source>", "tmax_c": "<source>", "vpd_kpa": "<source or derivation>"}
+    }
+  ],
+  "known_limitations": ["<list every join, imputation, or coverage limitation>"]
+}
